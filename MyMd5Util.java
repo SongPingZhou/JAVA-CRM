@@ -4,6 +4,7 @@ import java.security.MessageDigest;
 
 public class MyMd5Util {
 	public static String strMd5(String str) {
+//56756
 		MessageDigest md5;
 		try {
 			md5=MessageDigest.getInstance("MD5");
